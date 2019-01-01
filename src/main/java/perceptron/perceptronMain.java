@@ -1,12 +1,11 @@
 package perceptron;
 
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
 public class perceptronMain {
     private static String TraningDataName = "src/main/resources/MNIST.txt";
-    private static int allCaseDataSize = 70000;
     private static int TrainingDataSize = 49000;
     private static int TestingDataSize = 21000;
     static int width = 28;

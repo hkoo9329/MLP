@@ -18,7 +18,6 @@ public class TestingData {
         testingDataOutput = new int[testDataSize][outputSize];
     }
 
-
     public void insertTestingData(Scanner sc){
         for(int i=0;i<testDataSize;i++){
             int target = sc.nextInt();
@@ -32,8 +31,6 @@ public class TestingData {
         }
 
     }
-
-
 
     public void TargetOutTest(int target, int n) {
         for (int i = 0; i < outputSize; i++) {
